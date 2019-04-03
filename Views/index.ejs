@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Application web chat</title>
+	
+	<link rel="stylesheet" type="text/css" href="../assets/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+  <script type="text/javascript" src="../assets/jquery.min.js"></script>
+</head>
+<body>
+  
+ <div class=" grad text-center">
+       <div id ="output"></div>
+         <div id ="feedback"></div>
+       <div class="form-group">
+    
+           <input type="text" id="handle" class="form-control" id="usr" placeholder="name">
+       </div>
+
+       <div class="form-group">
+     
+           <input type="text" id="message" class="form-control" id="usr" placeholder="Message">
+      </div>
+
+      <button type="button" id ="send" class="btn btn-success">send</button>
+  </div>
+  <script src="../assets/chat.js"></script>
+</body>
+</html>

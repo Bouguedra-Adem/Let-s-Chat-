@@ -1,0 +1,32 @@
+.p
+{
+	border:20px solid black;
+}
+.grad{
+	margin-top: 50px;
+	border: 2px solid black;
+	width: 500px;
+	height: 500px;
+	margin-left: 300px;
+	text-align: center;
+}
+.form-control
+{
+
+position: relative;
+bottom: -350px;
+height: 50px;
+width: 500px;
+padding-left: 100px;
+margin-right: 50px;
+
+}
+.btn
+{
+position: relative;
+bottom: -350px;
+height: 50px;
+width: 500px;
+padding-left: 100px;
+margin-right: 50px;	
+}

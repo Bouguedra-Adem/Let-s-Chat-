@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Application web chat</title>
+	
+	<link rel="stylesheet" type="text/css" href="../assets/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script><!--sdk of fire base that we allow to accces to all function of fire base-->
+  <script type="text/javascript" src="../assets/jquery.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+    <script type="text/javascript">
+      var config = {
+        apiKey: "AIzaSyCbjvUSJ6w0R-Z75hSlFGHBa0Ic3v8ccCM",
+        authDomain: "projetapp-a760a.firebaseapp.com",
+        databaseURL: "https://projetapp-a760a.firebaseio.com",
+        projectId: "projetapp-a760a",
+        storageBucket: "projetapp-a760a.appspot.com",
+        messagingSenderId: "1055228374437"
+      }
+      firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript" src="../assets/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/Auth.js"></script>
+         
+     
+</head>
+<body>
+  
+ <h1>BOUGUEDRA ADEM</h1>
+ <P>IM DEVLOOOOOOPPPPPPEERRRR</P>
+ <button id ="btn">
+   sing in with google
+ </button>
+ <!--<script>
+   function singInWithGooogle(){
+    var  googleAuthProvider=new firebase.auth.GoogleAuthProvider
+   firebase.auth().signInWithPopup(googleAuthProvider)
+    .then(function(data){
+    console.log(data);
+   })
+  .catch(function(error){
+    console.log (error);
+
+  })
+}
+
+ </script>-->
+</body>
+</html>
